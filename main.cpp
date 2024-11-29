@@ -163,7 +163,7 @@ public:
 
 void basicTestString() {
     // a)
-    // const String str1;
+    const String str1;
 
     // b)
     // const String str2("hello world");
@@ -198,9 +198,9 @@ void basicTestString() {
     // str3.set("HELLO WORLD AGAIN");
     // assert(std::strcmp(str3.toCString(), "HELLO WORLD AGAIN") == 0);
 
-    // h)
-    // str3.append("dalsi text");
-    // assert(std::strcmp(str3.toCString(), "HELLO WORLD AGAINdalsi text") == 0);
+ //h
+   // str3.append("dalsi text");
+    //assert(std::strcmp(str3.toCString(), "HELLO WORLD AGAINdalsi text") == 0);
 
     // assert(std::strcmp(str6.toCString(), "hello world") == 0);
 }
